@@ -9,7 +9,7 @@ Es importante tener en cuenta que:
 
 2) El programa NO TE VA ACEPTAR SI ESCRIBES en MAYUCULAS (A, B, C,...) por que no los va imprimir en la pantalla.
 
-3) El programa NO CARACTERES ACENTUADOS (á, Á,..) por que no los va imprimir en la pantalla.
+3) El programa NO TE VA ACEPTAR CARACTERES ACENTUADOS (á, Á,..) por que no los va imprimir en la pantalla.
 
 Además, he personalicé la aplicación para reflejar mi estilo único. He ajustado los colores, la tipografía y las imágenes para que se alineen con mi visión y preferencias estéticas. Esto no solo mejora la funcionalidad, sino que también proporciona una experiencia visualmente atractiva y coherente.
 
