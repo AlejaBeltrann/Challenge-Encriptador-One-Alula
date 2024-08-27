@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es-co">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Encriptador de Mensaje</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <header>
+        <img src="./assets/icono.png" alt="">
+    </header>
+    <main>
+       <form class="form__section">
+            <textarea class="form__input" name="mensaje" id="" cols="30" rows="10" 
+                placeholder="Ingrese el texto aquí"></textarea>
+                  <div class="btn_container">
+                        <div class="alerta_mensaje"><img src="./assets/alerta_icono.png" alt="alerta icono"><span>Solo letras minúsculas sin acentos</span></div>
+                    </div>
+                <div class="container">
+                    <input class="btn_1" type="submit" value="Encriptar">
+                    <input class="btn_2" type="submit" value="Desencriptar">
+                </div> 
+       </form>
+        <aside class="resultado">
+            <img src="./assets/notexto.png" alt="Imagen No hay texto" class="resultado__img">
+            <div class="loader hidden"></div> 
+            <div class="resultado__container">
+                <h3 class="resultado__titulo">Ningún mensaje fue encontrado.</h3>
+                <p class="resultado__texto">Ingresa el texto que desees encriptar o desencriptar</p>
+                <button class="resultado_btn btn_2 hidden">Copiar</button> 
+                </div>
+            </button>
+            </div>
+        </aside>
+</main>
+
+<footer>
+    <img class="imanen__firma" src="./assets/icono.png" alt="">
+    <h4 class="copyright">
+        &copy Desarrollado por Tatiana Beltrán.
+    </h4>
+</footer>
+</body>
+
+
+<script src="./encrip-men.js"></script>
+
+</html>

@@ -1,0 +1,181 @@
+:root{
+    --blue: #0A3871;
+    --morado: #674188;
+    --lila-btn: #BC96D3;
+}
+html{
+    font-size: 62.5%;
+}
+header img{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: first baseline;
+}    
+body{
+    background-color: #C8A1E0;
+    font-family: "Grape Nuts", cursive;
+}
+header{
+    width: 60%;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+}
+.form__section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70dvh;
+    margin-left: 4rem;
+}
+.form__input{
+    width: 100%;
+    max-width: 577px;
+    height: 65dvh; 
+    border-color: transparent;
+    outline: none;
+    background: transparent;
+    font-size:32px;
+    font-family: "Grape Nuts", cursive;
+    font-size: 3.2rem;
+    color: var(--blue);
+    margin-bottom: 3rem;
+    overflow: auto;
+}
+::placeholder{
+    color: var(--blue);
+}
+.container{
+    display: flex;
+    gap: 2px;
+    flex-wrap: wrap;
+}
+.alerta_mensaje{
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    font-family: "Grape Nuts", cursive;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+.container{
+    display: flex;
+}
+/*encriptar boton*/
+.btn_1{
+    background: var(--morado);
+    color: white;
+    font-family: "Grape Nuts", cursive;
+    font-size: 2.5rem;
+    padding: 1rem 2rem;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    border: 1px solid var(--morado);
+    font-weight: 600;
+}
+/*desencriptar o copiar boton*/
+.btn_2{
+    background:  transparent;
+    color: var(--blue);
+    font-family: "Grape Nuts", cursive;
+    font-size: 2.5rem;
+    padding: 1rem 2rem;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    border: 1px solid var(--morado);
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+.resultado{
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10rem;
+    height: 70dvh;
+    max-width: 40rem;
+    width: 100%;
+    border-radius: 32px;  
+    font-family: "Grape Nuts", cursive;
+    font-size: 2rem;
+    margin-right: 10px;
+}
+.resultado__img{
+    display: block;
+    margin-top: 5px;
+}
+.hidden{
+    display: none;
+}
+    
+.resultado__container{
+    display: flex;
+    background: transparent;
+    flex-direction: column;
+    border-radius: 14px;
+    justify-self: center;
+}
+.resultado__titulo, .resultado__texto{
+    justify-content: center;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+    font-family: "Grape Nuts", cursive;
+    font-size: 2rem;
+    background-color: #E2BFD9;
+    margin-top: .5rem;
+    border-radius: 14px;
+    border: transparent;
+}
+
+.imagen__firma{
+    width: 40px;
+    height: 40px;
+}
+/*celular*/
+@media screen and (max-width:768px){
+    main{
+        flex-direction: column;
+    }
+    .container{
+        justify-content: center;
+    }
+    .resultado{
+        height: auto;
+        max-width: 624px;
+        margin-top: 2rem;
+        min-height: 186px;
+    }
+    .resultado__img{
+        display: none;
+    }
+    header img{
+        width: 60px;
+        height: 60px;
+    }
+}
+/* HTML: <div class="loader"></div> */
+.loader {
+  height: 4px;
+  width: 130px;
+  --c:no-repeat linear-gradient(#6100ee 0 0);
+  background: var(--c),var(--c),#d7b8fc;
+  background-size: 60% 100%;
+  animation: l16 3s infinite;
+}
+@keyframes l16 {
+  0%   {background-position:-150% 0,-150% 0}
+  66%  {background-position: 250% 0,-150% 0}
+  100% {background-position: 250% 0, 250% 0}
+}
