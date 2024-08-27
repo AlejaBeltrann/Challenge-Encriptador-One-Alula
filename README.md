@@ -11,7 +11,7 @@ Es importante tener en cuenta que:
 
 3) El programa NO TE VA ACEPTAR CARACTERES ACENTUADOS (á, Á,..) por que no los va imprimir en la pantalla.
 
-Además, he personalicé la aplicación para reflejar mi estilo único. He ajustado los colores, la tipografía y las imágenes para que se alineen con mi visión y preferencias estéticas. Esto no solo mejora la funcionalidad, sino que también proporciona una experiencia visualmente atractiva y coherente.
+Además, personalicé la aplicación para reflejar mi estilo único. He ajustado los colores, la tipografía y las imágenes para que se alineen con mi visión y preferencias estéticas. Esto no solo mejora la funcionalidad, sino que también proporciona una experiencia visualmente atractiva y coherente.
 
 
 El link para ver el encriptador de mensajes es el siguiente:  https://challenge-encriptador-tatiana-beltran.vercel.app/
